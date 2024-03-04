@@ -1,0 +1,13 @@
+{
+  "name": "root",
+  "version": "1.0.0",
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "workspaces": [
+    "modules/*"
+  ],
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}
